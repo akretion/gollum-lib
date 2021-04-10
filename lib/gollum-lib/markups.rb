@@ -82,7 +82,7 @@ module Gollum
              :reverse_links => true)
     register(:rst, "reStructuredText",
              :enabled => MarkupRegisterUtils::executable_exists?("python"),
-             :extensions => ['rest', 'rst'])
+             :extensions => ['rst', 'rest'])
     register(:asciidoc, "AsciiDoc",
              :skip_filters => [:Tags],
              :enabled => MarkupRegisterUtils::gem_exists?("asciidoctor"),
