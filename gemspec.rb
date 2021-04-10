@@ -29,7 +29,7 @@ def specification(version, default_adapter, platform = nil)
     s.add_dependency 'rouge', '~> 3.1'
     s.add_dependency 'nokogiri', '~> 1.8'
     s.add_dependency 'loofah', '~> 2.3'
-    s.add_dependency 'github-markup', '~> 3.0'
+    s.add_dependency 'github-markup', '~> 4.0'
     s.add_dependency 'gemojione', '~> 4.1'
     s.add_dependency 'octicons', '~> 12.0'
     s.add_dependency 'twitter-text', '1.14.7'
@@ -55,7 +55,7 @@ def specification(version, default_adapter, platform = nil)
     s.add_development_dependency 'guard', '~> 2.16'
     s.add_development_dependency 'guard-minitest', '~> 2.4'
     s.add_development_dependency 'twitter_cldr', '~> 6.4'
-    
+
     # = MANIFEST =
   s.files = %w(
     Gemfile
